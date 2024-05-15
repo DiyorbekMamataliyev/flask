@@ -6,7 +6,4 @@ venv/
 .idea/
 
 # Ignore pycache files
-__pycache__
-
-# Ignore logs
-logs/
+__pycache__/
