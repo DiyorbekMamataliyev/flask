@@ -1,0 +1,18 @@
+{
+  "name": "frontend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "watch": "tailwindcss -i ./main.css -o ./css/bundle.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "@types/bun": "latest",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
